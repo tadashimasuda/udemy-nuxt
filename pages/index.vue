@@ -1,3 +1,22 @@
 <template>
-  <h1>hello</h1>  
+  <div>
+    <h1>hello</h1>
+    <no-ssr>
+      <v-select
+        v-model="selected"
+        placeholder="Select Category"
+        :options="['foo', 'bar']"
+      ></v-select>
+    </no-ssr>
+  </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      selected: "",
+    };
+  },
+};
+</script>

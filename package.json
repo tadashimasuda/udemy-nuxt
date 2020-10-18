@@ -11,7 +11,9 @@
   "dependencies": {
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vue-scrollto": "^2.19.1",
+    "vue-select": "^3.10.8"
   },
   "devDependencies": {}
 }
